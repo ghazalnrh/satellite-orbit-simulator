@@ -1,0 +1,6 @@
+{
+  "satellite_name": "MySatellite",
+  "altitude_km": 500,
+  "inclination_deg": 51.6,
+  "simulation_steps": 1000
+}

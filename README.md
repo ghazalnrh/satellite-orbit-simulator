@@ -38,11 +38,11 @@ The goal of this simulator is to model satellite motion using Newtonian physics 
 
 ### 1. Satellite Ground Track Simulation
 The projected path of the satellite over the global map, showing latitude and longitude coverage.
-![Ground Track Simulation](photo_1782944106329.jpeg)
+![Ground Track Simulation](output/groundtrack.jpg)
 
 ### 2. 2D Orbit Animation
 Dynamic representation of the satellite's motion in the orbital plane.
-![2D Orbit Animation](photo_1782944113963.jpeg)
+![2D Orbit Animation](output/animmation.jpg)
 
 ### 3. 3D Satellite Orbit Around Earth
 A complete 3D visualization of an elliptical orbit, highlighting the Earth-satellite spatial relationship.

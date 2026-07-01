@@ -1,0 +1,8 @@
+# 3. Physics Model & Equations of Motion
+# The motion of a satellite is governed by Newton's Law of Gravitation:
+# Acceleration (a) = -MU * r / r^3
+# We break this 2nd-order ODE into a system of 1st-order ODEs:
+# 1. dr/dt = velocity (v)
+# 2. dv/dt = acceleration (a)
+
+print("Physics theory loaded.")

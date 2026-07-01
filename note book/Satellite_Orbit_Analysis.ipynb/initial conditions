@@ -1,0 +1,20 @@
+# 1. Initial conditions (Altitude: 500 km)
+altitude = 500000  # meters
+r0 = R_EARTH + altitude
+v0 = np.sqrt(MU / r0)  # Circular orbit velocity
+
+# Initial state vector: [x, y, z, vx, vy, vz]
+# Starting on the X-axis, moving towards Y-axis with 51.6 degrees inclination
+inclination = np.radians(51.6) 
+state0 = [r0, 0, 0, 0, v0 * np.cos(inclination), v0 * np.sin(inclination)]
+
+# 2. Time span (Simulating for 2 full orbits ~ 180 minutes)
+t = np.linspace(0, 10800, 1000) 
+
+# 3. Solve the ODE
+sol = odeint(orbit_equations, state0, t)
+
+# Extract position results
+x_orbit, y_orbit, z_orbit = sol[:, 0], sol[:, 1], sol[:, 2]
+
+print("Simulation completed successfully.")

@@ -8,3 +8,24 @@ Key Objectives:
 *   Simulate the 3D position and velocity of a satellite over time.
 *   Analyze the effect of orbital parameters (Altitude and Inclination).
 *   Visualize the satellite's path around the Earth using Matplotlib.
+
+# Constants
+MU = 3.986004418e14  # Earth's gravitational parameter (m^3/s^2)
+R_EARTH = 6371000    # Earth's mean radius (meters)
+
+def orbit_equations(state, t):
+    """
+    Defines the differential equations for the orbital motion.
+    state = [x, y, z, vx, vy, vz]
+    """
+    x, y, z, vx, vy, vz = state
+    r = np.sqrt(x**2 + y**2 + z**2)
+    
+    # Accelerations (Newton's law)
+    ax = -MU * x / r**3
+    ay = -MU * y / r**3
+    az = -MU * z / r**3
+    
+    return [vx, vy, vz, ax, ay, az]
+
+print("Physics model successfully defined.")

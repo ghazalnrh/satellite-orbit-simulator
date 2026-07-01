@@ -1,0 +1,10 @@
+# Satellite Orbit Simulation & Visualization
+### Project for STAR.VISION Space Summer Camp
+
+#### 1. Introduction
+This notebook provides a numerical simulation of a satellite's trajectory in Low Earth Orbit (LEO). The primary goal is to model the orbital motion by solving the differential equations of motion derived from Newton's Law of Universal Gravitation.
+
+Key Objectives:
+*   Simulate the 3D position and velocity of a satellite over time.
+*   Analyze the effect of orbital parameters (Altitude and Inclination).
+*   Visualize the satellite's path around the Earth using Matplotlib.

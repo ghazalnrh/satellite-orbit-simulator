@@ -42,7 +42,7 @@ The projected path of the satellite over the global map, showing latitude and lo
 
 ### 2. 2D Orbit Animation
 Dynamic representation of the satellite's motion in the orbital plane.
-![2D Orbit Animation](output/animmation.jpg)
+![2D Orbit Animation](output/animmation.gif)
 
 ### 3. 3D Satellite Orbit Around Earth
 A complete 3D visualization of an elliptical orbit, highlighting the Earth-satellite spatial relationship.

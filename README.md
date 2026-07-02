@@ -46,7 +46,7 @@ Dynamic representation of the satellite's motion in the orbital plane.
 
 ### 3. 3D Satellite Orbit Around Earth
 A complete 3D visualization of an elliptical orbit, highlighting the Earth-satellite spatial relationship.
-![3D Orbit Visualization](output/orbitalsimulate.jpg)
+![3D Orbit Visualization](output/orbitalsimulate.png)
 
 ---
 Author: [Maede Nourshargh]  
